@@ -1,4 +1,13 @@
 def snail(snail_map):
+    """
+	function to output list of clockwise iteration over 2x2 array
+
+	args: snail_map -> 2x2 array
+
+	return: list of ints
+
+    """
+
     output = []
     row_begin = 0
     row_end = len(snail_map)
